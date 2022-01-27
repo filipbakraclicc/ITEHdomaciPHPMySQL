@@ -28,3 +28,20 @@ body {
     margin-left: 150px;
     margin-right: 150px;
 }
+
+#noviIzvestajForma {
+    margin-top: 50px;
+    width: 850px;
+    margin-left: 540px;
+}
+
+
+.red-forma {
+    margin-bottom: 10px;
+}
+
+#sacuvajIzvestaj {
+    margin-top: 15px;
+    margin-left: 280px;
+    width: 250px;
+}

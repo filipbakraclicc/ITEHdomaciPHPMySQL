@@ -29,7 +29,10 @@
                  <td><?php echo $red->troskovi; ?></td>
                  <td><?php echo $red->ime; ?></td>
                  <td><?php echo $red->sediste; ?></td>
-                 <td><a href="noviIzvestaj.php"><button class="btn btn-primary btn-lg" id="noviIzv">Novi</button></a></td>
+                 <td>
+                     <a href="noviIzvestaj.php"><button class="btn btn-primary btn-lg" id="noviIzv">Novi</button></a>
+                     <a href="izmenaIzvestaja.php?id=<?php echo $red->id; ?>"><button class="btn btn-dark btn-lg" id="izmenaIzv">Izmena</button></a>
+                 </td>
              </tr>
          <?php } ?>
      </tbody>

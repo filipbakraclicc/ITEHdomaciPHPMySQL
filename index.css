@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+* {
+    margin: 0;
+
+    font-family: 'Mandali', sans-serif;
+    font-size: 20px;
+
+}
+
+body {
+    background-color: cornsilk;
+
+}
+
+#naslov-index {
+    margin-top: 25px;
+    margin-left: 750px;
+}
+
+#podnaslov-index {
+    margin-left: 500px;
+    color: blue;
+}
+
+.tabela-izvestaja {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}

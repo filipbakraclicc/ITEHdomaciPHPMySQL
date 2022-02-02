@@ -12,8 +12,7 @@
 
 <body>
     <div class="div-index">
-        <h3 id="naslov-index">Internet tehnologije</h3>
-        <h1 id="podnaslov-index" class="text-primary">Finansijski izvestaji - PHP MySQL AJAX</h1>
+        <h1 id="naslov-index" class="text-primary">Finansijski izvestaji - PHP MySQL AJAX</h1>
 
         <div class="tabela-izvestaja">
 

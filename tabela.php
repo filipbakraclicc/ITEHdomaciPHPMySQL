@@ -32,6 +32,7 @@
                  <td>
                      <a href="noviIzvestaj.php"><button class="btn btn-primary btn-lg" id="noviIzv">Novi</button></a>
                      <a href="izmenaIzvestaja.php?id=<?php echo $red->id; ?>"><button class="btn btn-dark btn-lg" id="izmenaIzv">Izmena</button></a>
+                     <button type="button" class="btn btn-light btn-lg" id="obrisiIzv" value="<?php echo $red->id; ?>">Obrisi</button></a>
                  </td>
              </tr>
          <?php } ?>

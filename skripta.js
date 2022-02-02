@@ -1,5 +1,6 @@
 $(document).ready(function () {
     noviIzvestaj();
+    brisanjeIzvestaja();
 });
 
 
@@ -25,5 +26,24 @@ function noviIzvestaj() {
                     window.location.replace("index.php");
                 }
             });
+    })
+}
+
+function brisanjeIzvestaja() {
+
+    $(document).on('click', '#obrisiIzv', function () {
+
+        var izvID = $(this).attr('value');
+
+        $.ajax({
+            url: 'brisanje.php',
+            method: 'post',
+            data: { ID: izvID },
+
+            success: function (data) {
+                alert('Uspesno obrisan izvestaj')
+                window.location.replace("index.php");
+            }
+        })
     })
 }

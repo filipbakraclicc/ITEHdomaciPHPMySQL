@@ -69,7 +69,6 @@
          <?php
             require 'Izvestaj.php';
             if (isset($_POST['sacuvajIzmene'])) {
-
                 $izvestaj = new Izvestaj();
                 if ($izvestaj->sacuvajIzmene($idIzv, $_POST['mesec'], $_POST['godina'], $_POST['prihodi'], $_POST['troskovi'], $_POST['kompanija'])) {
                     header('Location: index.php');

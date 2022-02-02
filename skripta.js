@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('#izvestaji').DataTable();
     noviIzvestaj();
     brisanjeIzvestaja();
 });
@@ -13,7 +14,6 @@ function noviIzvestaj() {
         var prihodi = $('#prihodi').val();
         var troskovi = $('#troskovi').val();
         var kompanija = $('#kompanija').val();
-
 
         $.ajax(
             {

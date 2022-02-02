@@ -1,4 +1,4 @@
- <table class="table table-bordered table-light table-striped border border-2 border-dark">
+ <table class="table table-bordered table-light table-striped border border-2 border-dark" id="izvestaji">
      <thead>
          <tr>
              <th>Mesec</th>
